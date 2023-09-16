@@ -14,13 +14,17 @@
 		"node": ">=8"
 	},
 	"scripts": {
-		"test": "xo && ava && tsd"
+		"test": "xo && ava && tsd",
+		"lint": "xo --fix"
 	},
 	"files": [
 		"index.js",
 		"index.d.ts",
 		"void.js",
 		"void.d.ts",
+		"html-categorized.js",
+		"html-categorized.d.ts",
+		"html-categorized-.json",
 		"html-tags.json",
 		"html-tags-void.json"
 	],
@@ -33,7 +37,8 @@
 		"whatwg",
 		"w3c",
 		"void",
-		"self-closing"
+		"self-closing",
+		"categorized"
 	],
 	"devDependencies": {
 		"ava": "^1.4.1",
